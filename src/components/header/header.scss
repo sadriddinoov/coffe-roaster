@@ -1,0 +1,31 @@
+.header {
+
+    &_container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    &_img {
+        width: 236px;
+        height: 26px;
+    }
+
+    &_list {
+        display: flex;
+        gap: 25px;
+    }
+
+    &_link {
+        color: #83888F;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 15px;
+
+        &:active {
+            color: black;
+        }
+    }
+}

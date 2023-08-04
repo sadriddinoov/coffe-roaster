@@ -1,0 +1,39 @@
+.footer {
+    padding-bottom: 50px;
+
+    &_container {
+        background-color: #2C343E;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 40px;
+    }
+    
+    &_list {
+        display: flex;
+        gap: 15px;
+        margin-right: 400px;
+    }
+
+    &_link {
+        color: #83888F;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    &_img-wrapper {
+        display: flex;
+        gap: 15px;
+    }
+
+    &_each-img {
+        width: 24px;
+        height: 24px;
+
+        &:active path {
+            fill: #FDD6BA;
+        }
+    }
+}

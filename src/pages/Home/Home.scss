@@ -1,0 +1,214 @@
+
+
+.main {
+
+    margin-top: 30px;
+
+     &_container {
+        padding: 30px 35px;
+        border-radius: 20px;
+        padding-bottom: 40px;
+     }
+
+     &_heading {
+        font-weight: 900;
+        color: #FEFCF7;
+        font-size: 72px;
+        line-height: 72px;
+        max-width: 493px;
+        margin-bottom: 10px;
+     }
+
+     &_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 405px;
+        margin-bottom: 20px;
+        color: rgba(254, 252, 247, 0.616);
+     }
+
+    
+}
+
+ .btn {
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: #0E8784;
+        color: #FEFCF7;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        padding: 10px 15px;
+
+        &:active {
+            background-color: aqua;
+        }
+     }
+
+.type {
+    position: relative;
+    margin-top: 100px;
+
+    &_container {
+        display: flex;
+        gap: 20px;
+    }
+
+    &_colection {
+        position: absolute;
+        opacity: 0.1;
+        top: -20%;
+        right: 13%;
+        color: #FEFCF700;
+    }
+}
+
+.choose {
+    margin-top: 75px;
+
+    &_container {
+        position: relative;
+        background-color: #2C343E;
+        border-radius: 20px;
+        padding-top: 40px;
+        padding-bottom: 250px;
+        max-width: 1050px;
+        margin-left: 110px;
+    }
+
+    &_heading {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        text-align: center;
+    }
+
+    &_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(254, 252, 247, 0.616);
+        max-width: 540px;
+        text-align: center;
+        margin-left: 250px;
+    } 
+
+    &_list {
+        position: absolute;
+        display: flex;
+        gap: 10px;
+        right: 7%;
+        bottom: -30%;
+    }
+
+    &_item {
+        text-align: center;
+        background-color: #0E8784;
+        padding: 25px 20px;
+        border-radius: 10px;
+
+        &-h {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FEFCF7;
+            margin-top: 45px;
+            margin-bottom: 7px;
+        }
+
+        &-p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: rgba(254, 252, 247, 0.716);
+            max-width: 255px;
+        }
+    }
+}
+
+.plan {
+    margin-top: 250px;
+    margin-bottom: 200px;
+
+    &_heading {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 175px;
+    }
+
+    &_list {
+        display: flex;
+        gap: 100px;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    &_item {
+        width: 380px;
+        
+        
+        
+        &-heading {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 36px;
+            color: #333D4B;
+            width: 230px;
+            margin-top: 30px;
+            margin-bottom: 43px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            max-width: 280px;
+        }
+
+        &::before {
+            content: "";
+            
+            position: absolute;
+            top: -30%;
+            display: inline-block;
+            width: 31px;
+            height: 31px;
+            border: 2px solid #0E8784;
+            border-radius: 50px;
+            
+        }
+    
+        &::after {
+            content: "";
+            position: absolute;
+            top: -25%;
+            display: inline-block;
+            width: 474px;
+            height: 2px;
+            background-color: #FDD6BA;
+        }
+
+        
+    }
+
+    
+   
+    
+
+    &_number {
+        color: #FDD6BA;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+    }
+}
+
+.plan_item:last-child::after {
+    display: none;
+}
