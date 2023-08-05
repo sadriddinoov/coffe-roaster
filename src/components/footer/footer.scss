@@ -45,25 +45,45 @@
         &_container {
             display: block;
             align-items: center;
-            padding: 50px 70px;
             height: 270px;
         }
 
         &_img {
-            margin-left: 125px;
+            margin-left: 25px;
         }
         
         &_list {
             gap: 35px;
             margin-right: 0px;
             margin-top: 35px;
-            margin-bottom: 65px;
+            margin-bottom: 0;
             margin-left: 120px;
         }
     
         &_img-wrapper {
             gap: 25px;
-            margin-left: 190px;
+            margin-left: 75px;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .footer {
+        &_img {
+            margin-left: -15px;
+        }
+
+        &_list {
+            flex-direction: column;
+            gap: 0px;
+            margin-right: 0px;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        &_link {
+            margin-bottom: 10px;
         }
     }
 }

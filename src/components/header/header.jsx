@@ -1,6 +1,7 @@
 import './header.scss'
 import Logo from '../../assets/logo.svg'
 import { Link } from 'react-router-dom'
+import burger from '../../assets/burger.svg'
 
 function Header() {
     return (
@@ -22,6 +23,12 @@ function Header() {
                     Create Your Plan
                    </Link>
                 </ul>
+
+                <Link className='header_none' to={'/menyu'}>
+                    <button className='hero_r-btn'>
+                        <img src={burger} alt="" />
+                    </button>
+                </Link>
             </div>
         </div>
        </header>

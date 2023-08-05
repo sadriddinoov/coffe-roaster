@@ -226,3 +226,62 @@
     }
 
 }
+
+@media only screen and (max-width: 425px) {
+    .create {
+        
+        &_container {
+            padding: 70px 50px 120px 50px;
+        }
+        
+        &_heading {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        
+        &_text {
+            font-size: 15px;
+            line-height: 25px;
+            width: 200px;
+        }
+    }
+
+    .hero {
+        
+        
+        &_r {
+            
+            &-top {
+                margin-bottom: 30px;
+            }
+            
+            &-heading {
+                font-size: 32px;
+            }
+            
+            &b-list {
+                flex-direction: column;
+            }
+            
+            &b-item {
+                padding: 12px 26px 34px 25px;
+            }
+            
+            &-order {
+                padding: 27px 40px;
+                width: 680px;
+            }
+
+            .hero_rb-text {
+                max-width: 278px;
+            }
+        }
+
+        .order {
+            max-width: 200px;
+            margin: 0;
+
+        }
+
+    }
+}

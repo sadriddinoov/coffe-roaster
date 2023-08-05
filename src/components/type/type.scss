@@ -28,3 +28,16 @@
         max-width: 282px;
     }
 }
+
+@media only screen and (max-width: 425px) {
+    .type_item {
+        display: block;
+        text-align: center;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .type_text {
+        margin-left: 15px;
+    }
+}

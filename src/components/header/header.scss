@@ -28,4 +28,29 @@
             color: black;
         }
     }
+
+    &_none {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .header {
+
+        &_img {
+            width: 163;
+            height: 16px;
+        }
+    
+        &_list {
+            display: none;
+        }
+
+        &_none {
+            display: block;
+        }
+    
+        
+    }
+ 
 }
