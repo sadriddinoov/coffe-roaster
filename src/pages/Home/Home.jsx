@@ -84,6 +84,7 @@ function Home() {
         <ul className='choose_list'>
         <li className='choose_item'>
         <img src={kofe} alt="" className="choose_img" />
+        <div>
         <h3 className="choose_item-h">
         Best quality
         </h3>
@@ -91,10 +92,12 @@ function Home() {
         <p className="choose_item-p">
         Discover an endless variety of the world's best artisan coffee from each of our roasters.   
         </p>
+        </div>
         </li>
         
         <li className='choose_item'>
         <img src={gift} alt="" className="choose_img" />
+        <div>
         <h4 className="choose_item-h">
         Exclusive benefits  
         </h4>
@@ -102,10 +105,12 @@ function Home() {
         <p className="choose_item-p">
         Special offers and swag when you subscribe, including 30% off your first shipment.
         </p>
+        </div>
         </li>
         
         <li className='choose_item'>
         <img src={dostavka} alt="" className="choose_img" />
+        <div>
         <h4 className="choose_item-h">
         Free shipping
         </h4>
@@ -113,6 +118,7 @@ function Home() {
         <p className="choose_item-p">
         We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
         </p>
+        </div>
         </li>
         </ul>
         </div>

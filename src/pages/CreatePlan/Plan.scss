@@ -1,0 +1,228 @@
+.create {
+    margin-top: 50px;
+    
+    &_container {
+        padding: 130px 80px;
+        border-radius: 20px;
+    }
+    
+    &_heading {
+        font-family: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FEFCF7;
+    }
+    
+    &_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(254, 252, 247, 0.716);
+        width: 445px;
+    }
+}
+
+.plan_container2 {
+    background-color: #333D4B;
+    padding-top: 225px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.plan_item-heading2 {
+    color: #FEFCF7;
+}
+
+.plan_item-text2 {
+    color: rgba(254, 252, 247, 0.716);
+}
+
+.hero {
+    margin-bottom: 100px;
+    margin-left: 100px;
+    
+    &_container {
+        display: flex;
+        gap: 200px;
+    }
+    
+    &_l {
+        
+        &-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: #333d4b62;
+            border-bottom: 1px solid #83888f79;
+            font-weight: 900;
+            
+            &:active {
+                color: #333D4B;
+            } 
+            
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        
+        &-item-active {
+            color: #333D4B;
+        }
+        
+    }
+    
+    &_r {
+        &-item {
+            margin-bottom: 50px;
+        }
+        
+        &-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        &-heading {
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #83888F;
+        }
+        
+        &-btn {
+            outline: none;
+            border: none;
+            background: none;
+        }
+        
+        &b-list {
+            display: flex;
+            gap: 25px; 
+        }
+        
+        &b-item {
+            padding: 32px 28px 84px 28px;
+            background-color: #F4F1EB;
+            border-radius: 20px;
+            
+            &:active {
+                background-color: #FDD6BA;
+            }
+        }
+        
+        &b-heading {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333D4B;
+        }
+        
+        &b-text {
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            max-width: 170px;
+        }
+        
+        .green {
+            background-color: #0E8784;
+        }
+        
+        .white {
+            color: #F4F1EB;
+        }
+        
+        &-order {
+            background-color: #2C343E;
+            padding: 27px 50px;
+            width: 730px;
+            margin-bottom: 30px;
+            
+            
+            &-heading {
+                text-transform: uppercase;
+                color: #fefcf756;
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 5px;
+            }
+            
+            .order {
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 40px;
+                color: #FFFFFF;
+                
+                &_code {
+                    color: #0E8784;
+                }
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .create {
+        
+        &_container {
+            padding: 120px 230px 120px 50px;
+        }
+        
+        &_heading {
+            font-size: 48px;
+            line-height: 48px;
+        }
+        
+        &_text {
+            font-size: 15px;
+            line-height: 25px;
+            width: 400px;
+        }
+    }
+    
+    .hero {
+        margin-left: 0px;
+        
+        &_container {
+            display: block;
+            gap: 0px;
+        }
+        
+        &_l {
+            display: none;
+        }
+        
+        &_r {
+            
+            &-top {
+                margin-bottom: 30px;
+            }
+            
+            &-heading {
+                font-size: 32px;
+            }
+            
+            &b-list {
+                gap: 10px; 
+            }
+            
+            &b-item {
+                padding: 32px 26px 84px 25px;
+            }
+            
+            &-order {
+                padding: 27px 40px;
+                width: 680px;
+            }
+        }
+
+        .btn2 {
+            margin-left: -300px;
+        }
+    }
+
+}

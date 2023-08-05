@@ -212,3 +212,133 @@
 .plan_item:last-child::after {
     display: none;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .main {
+
+        padding-bottom: 50px;
+    
+         &_container {
+            padding: 50px 35px;
+         }
+    
+         &_heading {
+            font-size: 48px;
+            line-height: 48px;
+            max-width: 329px;
+         }
+    
+         &_text {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 395px;
+         }
+    
+    }
+
+    .type {
+        position: relative;
+        margin-top: 100px;
+    
+        &_container {
+            display: block;
+            gap: 20px;
+        }
+    
+        &_colection {
+            position: absolute;
+            opacity: 0.1;
+            top: -8%;
+            right: 0%;
+            color: #FEFCF700;
+            width: 689px;
+        }
+    }
+
+    .choose {
+
+        padding-bottom: 150px;
+       
+    
+        &_container {
+            padding-bottom: 300px;
+            max-width: 750px;
+            margin-left: 60px;
+        }
+    
+        &_heading {
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+        }
+    
+        &_text {
+            font-size: 15px;
+            line-height: 25px;
+            margin-left: 50px;
+        } 
+    
+        &_list {
+            display: block;
+            gap: 10px;
+            right: 8%;
+            bottom: -55%;
+        }
+    
+        &_item {
+            display: flex;
+            text-align: left;
+            gap: 50px;
+            padding: 10px 30px;
+            margin-bottom: 20px;
+    
+            &-h {
+                margin-top: 20px;
+            }
+    
+            &-p {
+                font-size: 15px;
+                line-height: 25px;
+                max-width: 345px;
+            }
+        }
+    }
+
+    .plan {
+        margin-bottom: 100px;
+    
+        &_list {
+            gap: 40px;
+            position: relative;
+            margin-bottom: 30px;
+        }
+    
+        &_item {
+            width: 220px;
+            
+            &-heading {
+                font-size: 28px;
+                line-height: 32px;
+                width: 180px;
+                margin-top: 30px;
+                margin-bottom: 35px;
+            }
+    
+            &-text {
+                font-size: 15px;
+                line-height: 25px;
+                max-width: 220px;
+            }
+    
+            &::before {
+                top: -29.6%;
+            }
+        
+            &::after {
+                width: 278px;
+            }
+        }
+    }
+    
+}

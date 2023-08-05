@@ -37,3 +37,33 @@
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .footer {
+       
+    
+        &_container {
+            display: block;
+            align-items: center;
+            padding: 50px 70px;
+            height: 270px;
+        }
+
+        &_img {
+            margin-left: 125px;
+        }
+        
+        &_list {
+            gap: 35px;
+            margin-right: 0px;
+            margin-top: 35px;
+            margin-bottom: 65px;
+            margin-left: 120px;
+        }
+    
+        &_img-wrapper {
+            gap: 25px;
+            margin-left: 190px;
+        }
+    }
+}

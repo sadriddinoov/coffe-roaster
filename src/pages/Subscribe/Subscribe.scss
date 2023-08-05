@@ -1,0 +1,64 @@
+.sub_wrapper {
+    position: relative;
+    background-color: #FEFCF7;
+}
+
+.orders {
+    max-width: 540px;
+    background-color: #fff;
+    padding:  35px 45px;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    
+    &_heading {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: white;
+        background-color: #333D4B;
+        padding: 35px 55px;
+    }
+    
+    .order {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #83888F;
+    }
+
+    &_code {
+        color: #0E8784;
+    }
+
+    &_text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        max-width: 428px;
+    }
+
+    &_cash {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+    } 
+}
+
+@media only screen and (max-width: 800px) {
+
+    .sub_wrapper {
+        opacity: 0.4;
+    }
+
+    .orders {
+        max-width: 540px;
+        height: 597px;
+        background-color: #ffffffd0;
+        padding:  25px 45px;
+        position: absolute;
+        top: 10%;
+        right: 15%;
+}}
